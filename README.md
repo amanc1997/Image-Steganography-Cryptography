@@ -9,10 +9,12 @@ Image steganography is a very secure way of communication of secret information 
 * The Least Significant Bit Image steganography method that we have used hides the data in RGB plane. This is a better way of embedding information in an image since it results in an image which is very similar to the original cover image.
 
 ### Blowfish Algorithm:
-   ![image](https://user-images.githubusercontent.com/37493439/147320846-7c8e4b84-c6df-436e-bed7-0020ca689fd1.png)
+![image](https://user-images.githubusercontent.com/37493439/147320846-7c8e4b84-c6df-436e-bed7-0020ca689fd1.png)
 
-### F function in Blowfish
+### F function in Blowfish:
 ![image](https://user-images.githubusercontent.com/37493439/147321002-91ef9163-7fe4-4c7a-b90d-95da996462ad.png)
 
-### RSA using CRT
+### RSA using CRT:
 ![image](https://user-images.githubusercontent.com/37493439/147321023-7753d984-0cbf-413c-8b4b-29d9701d5525.png)
+
+The idea is to encrypt the secret message using symmetric and asymmetric encryption algorithms. This encrypted message cannot be decoded by attackers easily as it has been encrypted twice using strong algorithms. The encrypted data is then embedded inside a cover image. This image looks normal to any attacker’s eye. The receiver can then extract the message from the image and decrypt the encrypted data to get the original message.
