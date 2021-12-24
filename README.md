@@ -1,4 +1,4 @@
-# Image Steganography Cryptography
+# Secure Image Steganography with Blowfish, RSA and Chinese Remainder Theorem
 
 Image steganography is a very secure way of communication of secret information as the message is hidden within the image. However, it is not difficult to extract information from this method if the attacker knows where to look. Therefore it is vulnerable to many attacks. 
 
